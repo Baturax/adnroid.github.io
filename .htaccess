@@ -1,6 +1,0 @@
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
-RewriteCond %{HTTP_HOST} ^www.fulloyuntr.com$ [OR]
-RewriteCond %{HTTP_HOST} ^https://adnroid.github.io/$
-RewriteRule ^/?$ https://adnroid.github.io/main.html [R=301,L]
